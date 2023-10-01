@@ -17,7 +17,8 @@ input {
 }
 
 body {
-    width: 143.3rem;
+    width: 100%;
+
 }
 
 .desktop-1-P13 {
@@ -32,7 +33,7 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('/Public-Train-Reservation-project/images/background-image-bg-6o3.png');
+    background-image: url('/images/background-image-bg-6o3.png');
     background-color: #ffffff;
 }
 
