@@ -1,0 +1,371 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+input {
+    border: none;
+}
+
+body {
+    width: 143.3rem;
+}
+
+.desktop-1-P13 {
+    box-sizing: border-box;
+    padding: 0rem 0rem 23.6rem 0.1rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /*filter: blur(0.5rem);*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/Public-Train-Reservation-project/images/background-image-bg-6o3.png');
+    background-color: #ffffff;
+}
+
+.desktop-1-P13 .auto-group-dpxb-hnR {
+    margin-bottom: 15.5rem;
+    box-sizing: border-box;
+    padding: 1.7rem 65.2rem 1.2rem 2.2rem;
+    width: 100%;
+    height: 8.8rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(136, 136, 136, 0.5);
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-dpxb-hnR .trivago-cuP {
+    margin-right: 18.5rem;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 1.21;
+    color: #3e93c2;
+    font-family: Irish Grover, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-dpxb-hnR .frame-6-9PX {
+    margin: 0.8rem 0rem 2.2rem 0rem;
+    height: calc(100% - 3rem);
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-dpxb-hnR .frame-6-9PX .home-Ugh {
+    margin-right: 6rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #fafafa;
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-dpxb-hnR .frame-6-9PX .about-pEm {
+    margin-right: 6.1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #fafafa;
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-dpxb-hnR .frame-6-9PX .contact-xLy {
+    margin-right: 6.6rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #fafafa;
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-dpxb-hnR .frame-6-9PX .about-us-Vrh {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #fafafa;
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo {
+    margin: 0rem 8.7rem 0rem 2.1rem;
+    width: calc(100% - 10.8rem);
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .group-5-9AZ {
+    margin-right: 18.9rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .group-5-9AZ .embark-on-your-journey-with-us-securely-book-your-next-travel-adventure-JJM {
+    margin-bottom: 0.7rem;
+    max-width: 66.4rem;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #ffffff;
+    font-family: Francois One, 'Source Sans Pro';
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .group-5-9AZ .embark-on-your-journey-with-us-securely-book-your-next-travel-adventure-JJM .embark-on-your-journey-with-us-securely-book-your-next-travel-adventure-JJM-sub-0 {}
+
+.desktop-1-P13 .auto-group-nw97-DXo .group-5-9AZ .embark-on-your-journey-with-us-securely-book-your-next-travel-adventure-JJM .embark-on-your-journey-with-us-securely-book-your-next-travel-adventure-JJM-sub-1 {
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #3e93c2;
+    font-family: Francois One, 'Source Sans Pro';
+}
+
+/* .desktop-1-P13 .auto-group-nw97-DXo .group-5-9AZ .embark-on-your-journey-with-us-securely-book-your-next-travel-adventure-JJM .embark-on-your-journey-with-us-securely-book-your-next-travel-adventure-JJM-sub-2 {} */
+
+.desktop-1-P13 .auto-group-nw97-DXo .group-5-9AZ .effortless-booking-for-seamless-travel-experiences-CHF {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #ffffff;
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP {
+    margin-top: 14.3rem;
+    width: 47.1rem;
+    height: 40.2rem;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .member-login-FFX {
+    width: 19.8rem;
+    height: 4.6rem;
+    position: absolute;
+    left: 12.9rem;
+    top: 0;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: rgba(62, 147, 194, 0.8100000024);
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+}
+
+.input-field {
+    position: absolute;
+    top: 7.4rem;
+    box-sizing: border-box;
+    padding: 1.4rem 19.3rem 1.3rem 1.7rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    left: 1rem;
+    height: 6.2rem;
+    width: 40rem;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 42px;
+    background: rgba(217, 217, 217, 0.2599999905);
+
+}
+
+::-webkit-input-placeholder {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.42;
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+    color: #fff;
+
+
+}
+
+.i {
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: #fff;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .group-2-Z1K {
+    width: 45.2rem;
+    height: 6.2rem;
+    border-radius: 4rem;
+    background-color: rgba(217, 217, 217, 0.2599999905);
+    padding: 1.8rem 23.4rem 0.9rem 1.7rem;
+    box-sizing: border-box;
+    position: absolute;
+    left: 1rem;
+    top: 7.4rem;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP.group-2-Z1K .lock-alt-solid-24-1-rFK {
+    margin: 0rem 1.2rem 0.1rem 0rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .group-2-Z1K .enter-your-email-mdB {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #ffffff;
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .group-3-hFw {
+    box-sizing: border-box;
+    padding: 1.4rem 19.3rem 1.3rem 1.7rem;
+    position: absolute;
+    top: 17.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .group-3-hFw .lock-alt-solid-24-2-CCh {
+    margin: 0rem 1.2rem 0.1rem 0rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .group-3-hFw .enter-your-password-K2R {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #ffffff;
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .group-4-cnD {
+    /*width: 30.0279rem;
+    height: 6.2rem;*/
+    position: absolute;
+    left: 0rem;
+    top: 26rem;
+    /*border-radius: 4rem;*/
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .group-4-cnD .rectangle-10-9XF {
+    width: 25.5rem;
+    height: 6.2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .group-4-cnD .login-V5K {
+    border: none;
+    background: rgba(62, 147, 194, 0.7200000286);
+    border-radius: 4rem;
+    outline: none;
+    width: 25.5rem;
+    height: 6.2rem;
+    position: absolute;
+    left: 9.2rem;
+    top: 1.4rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #ffffff;
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.login-V5K:hover {
+    box-shadow: 2px 6px 8px 2px rgba(255, 255, 255, 0.344);
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .dont-have-a-account-register-PgV {
+    width: 20.5rem;
+    height: 2.3rem;
+    position: absolute;
+    left: 12.9rem;
+    top: 35.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #ffffff;
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+    display: block;
+    align-items: baseline;
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .dont-have-a-account-register-PgV .dont-have-a-account-register-PgV-sub-0 {}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .dont-have-a-account-register-PgV .dont-have-a-account-register-PgV-sub-1 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #3e93c2;
+    font-family: Francois One, 'Source Sans Pro';
+}
+
+.desktop-1-P13 .auto-group-nw97-DXo .auto-group-g1lm-imP .rectangle-11-j85 {
+    width: 47.1rem;
+    height: 40.2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: solid 0.1rem #000000;
+    box-sizing: border-box;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-color: rgba(217, 217, 217, 0.0799999982);
+    border-radius: 4rem;
+}
