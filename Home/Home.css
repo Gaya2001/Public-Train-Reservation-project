@@ -19,10 +19,13 @@
     width: 100%;
 }
 
+.section3 {
 
-.jj {
-    text-align: center;
+    height: 100vh;
+    width: 100%;
 }
+
+
 
 .Head {
 
@@ -122,4 +125,90 @@ button:hover {
 .Seat_book:hover {
     background-color: rgba(62, 147, 195, 1);
     border-color: rgba(62, 147, 195, 1);
+}
+
+.News {
+
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: black;
+}
+
+.Maintain {
+
+    padding-top: 10px;
+    padding-left: 3.5%;
+
+
+
+
+}
+
+.Offer {
+    padding-top: 10px;
+    padding-left: 2%;
+}
+
+
+.Notices {
+    margin-top: 10px;
+    padding-left: 2%;
+
+
+
+}
+
+img,
+.maintain_text,
+.Offer_Text,
+.Notices_Text {
+    display: inline-block;
+}
+
+.Maintain,
+.Offer,
+.Notices {
+
+    display: inline-block;
+}
+
+.maintain_text {
+    width: 400px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 3.5%;
+    text-align: justify;
+
+}
+
+.Offer_Text {
+    width: 400px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 2%;
+    text-align: justify;
+
+}
+
+.Notices_Text {
+    width: 400px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 2%;
+    text-align: justify;
+
+}
+
+.About_Us {
+
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: black;
+
 }
