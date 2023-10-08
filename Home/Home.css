@@ -16,7 +16,7 @@ html {
 .section1 {
     height: 100vh;
     width: 100%;
-    background-image: url(Main_banner.jpg);
+    background-image: url(/images/Main_banner.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -459,6 +459,7 @@ ul {
     width: 25%;
     padding: 0 15px;
 
+
 }
 
 .footer-col img {
@@ -472,9 +473,13 @@ ul {
     font-size: 18px;
     color: #ffff;
     text-transform: capitalize;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     font-weight: 500;
     position: relative;
 }
 
-.footer-col ul li {}
+.footer-col .Socials li {
+
+    display: inline-block;
+
+}
