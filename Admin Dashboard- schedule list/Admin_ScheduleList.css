@@ -158,34 +158,11 @@ span .IMAGINE {
   }
   
   th {
+    padding: 20px;
     background-color: #ffffff;
   }
   td{
-    background-color: #15c4d8;
+    padding: 40px;
+    background-color: #93a0a1;
   }
-  .action_btn
-  {
-    display: flex;
-    justify-content: center;
-    gap:10px;
-
-  }
-  .action_btn>a{
-    text-decoration: none;
-   /* color:#444;
-    background-color: red;*/
-    border:1px solid orange;
-    display: inline-block;
-    padding: 5px 15px;
-    font-weight: bold;
-    border-radius: 3px;
-    transition: 0.3s ease-in-out;
-  }
-  .action_btn>a:nth-child(1){
-    background-color: rgb(17, 192, 227);
-    border-color: aqua;
-  }
-  /*.action_btn>a:nth-child(2){
-    background-color: rgb(231, 8, 15);
-    border-color: aqua;
-  }
+  
