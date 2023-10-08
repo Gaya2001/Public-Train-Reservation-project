@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- ========================Icon Link======================= -->
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- ===============Google Font Link=================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Francois+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="AdminDashboard_TrainList.css">
+</head>
+<body>
+   <!-- ============== Side navigation Bar============= -->
+
+   <div class="NAME">
+    <div class="Administrator">Administrator Dashboard </div>
+</div>
+
+<div class="sidebar">
+    <header>
+        <h2 class="LOGO_ADMIN"><span class="IMAGINE">IMAGINE</span> SEATS</h2>
+    </header>
+    <header class="DATE">WED 13, OCT 21</header>
+    <header class="SUPPORT_STAFF">ADMIN</header>
+    <ul>
+        <li class="Home"><a href="#HOME"><i class=""></i>HOME</a></li>
+        <li class="Feedback"><a href="Feedback"><i class=""></i>FEEDBACK</a></li>
+        <li class="Season_inquiry"><a href="Season_inquiry"><i class=""></i>SEASON INQUIRiES</a></li>
+        <li class="Users"><a href="Users"><i class=""></i>USERS</a></li>
+        <li class="News"><a href="News"><i class=""></i>NEWS</a></li>
+        <li class="Logout"><a href="Logout"><i class=""></i>LOG OUT</a></li>
+
+    </ul>
+</div>
+
+    <div class="blue-bar">   <!-- blue bar -->
+    <h3 class="Route-list">Train List</h3>
+    <div>
+    <button class="add-new-Route">ADD NEW TRAIN</button> <!--ADD NEW ROUT Button--> 
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="search-bar"> <!--search-bar--> 
+    <span><b>search</b></span>
+      <input type="text"  placeholder="Search.."/>
+  </div>
+  <br>
+  <br>
+  <table width="100%" class="center ">  <!--Train list table--> 
+    <thead>   <!--header content in an HTML table--> 
+      <tr>
+        <th>#</th>
+        <th>Train Name</th> 
+        <th>First class seats</th>
+        <th>Second class seats</th>
+        <th>Third class seats</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>  <!--body content in an HTML table--> 
+      <tr>
+        <td>01</td>
+        <td>Ruhunu Kumari</td> 
+        <td>150</td>
+        <td>200</td>
+        <td>350</td>
+        <td><div class="action_btn"><span  style="background-color: rgb(237, 235, 241)"><a href="#">Edit</a></span>
+          <span style="background-color: rgb(227, 101, 17);"> <a href="#">Delete</a></span></div></td>  <!--Edit and Delete button--> 
+      </tr>
+      <tr>
+        <td></td>
+        <td></td> 
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td> 
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tbody>
+  </table>
+</body>
+
+</html>
