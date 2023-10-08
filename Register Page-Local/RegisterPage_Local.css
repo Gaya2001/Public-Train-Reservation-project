@@ -93,7 +93,6 @@ button:hover {
 }
 
 .auto-group-lfvt-Wgy {
-    width: 49.1rem;
     height: 100%;
     position: relative;
     flex-shrink: 0;
@@ -123,16 +122,16 @@ button:hover {
 }
 
 .section1 .auto-group-pry7-xV7 {
-    margin: 0rem 9.6rem 0rem 2.1rem;
-    width: 50rem;
-    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 9.6rem 0rem 2.1rem;
+
+    /*align-items: flex-start;*/
 }
 
 .section1 .auto-group-pry7-xV7 .group-5-gR7 {
-    margin: 2.9rem 16.7rem 0rem 0rem;
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
 }
 
 .section1 .auto-group-pry7-xV7 .group-5-gR7 .embark-on-your-journey-with-us-securely-book-your-next-travel-adventure-p1X {
@@ -167,4 +166,125 @@ button:hover {
     font-family: Francois One, 'Source Sans Pro';
     white-space: nowrap;
     flex-shrink: 0;
+}
+
+.reg-box {
+    margin-top: 0.5rem;
+    width: 27.1rem;
+    height: 35.8rem;
+    border: solid 0.1rem #000000;
+    box-sizing: border-box;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-color: rgba(217, 217, 217, 0.049);
+    border-radius: 3.2rem;
+}
+
+.reg {
+    text-align: center;
+    padding-top: 12px;
+    height: 3.8rem;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: rgba(62, 147, 194, 0.8100000024);
+    font-family: Francois One, 'Source Sans Pro';
+}
+
+form {
+    width: 92%;
+    margin-left: 20px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 92%;
+    color: #fff;
+    padding: 12px 10px;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.158);
+    border-radius: 20px;
+    outline: none;
+    background: rgba(217, 217, 217, 0.252);
+    margin-bottom: 10px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.42;
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+    color: #fff;
+
+
+}
+
+.reg-button {
+
+    width: 50%;
+    border: none;
+    background: rgba(62, 147, 194, 0.7200000286);
+    border-radius: 4rem;
+    outline: none;
+    height: 3.5rem;
+    font-size: 1.4rem;
+    line-height: 1.42;
+    color: #ffffff;
+    font-family: Francois One, 'Source Sans Pro';
+    white-space: nowrap;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.reg-button:hover {
+    background: rgba(62, 147, 194, 0.8500000286);
+    box-shadow: 2px 6px 8px 2px rgba(255, 255, 255, 0.344);
+}
+
+input:focus {
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.cc {
+    display: flex;
+    justify-content: center;
+}
+
+.back-log {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    line-height: 1.42;
+    color: #ffffff;
+    align-items: baseline;
+}
+
+.login-ancer {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.42;
+    color: #3e93c2;
+}
+
+.cc1 {
+    display: inline flex;
+}
+
+.lable2 {
+    margin-bottom: 8px;
+    margin-left: 6px;
+    margin-right: 50px;
+    color: #ffffff;
+}
+
+.lable1 {
+    margin-bottom: 8px;
+    margin-left: 6px;
+    color: #ffffff;
 }
