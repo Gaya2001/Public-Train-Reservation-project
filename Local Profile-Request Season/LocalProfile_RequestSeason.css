@@ -1,0 +1,96 @@
+#logo{
+    height: 60px;
+    width : 60px;
+}
+
+header{
+    background-image: url(../images/Main_banner.jpg);
+    opacity:0.5;
+    background-position-y:65%;
+}
+
+#navigate > a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+}
+
+#me_account{
+    margin-top: -40px;
+    margin-right: 50px;
+    float: right;
+    background-image: url(../images/Main_banner.jpg);
+    
+}
+
+#navigate{
+    position: absolute;
+    margin-left: 300px;
+    top: 20px;
+    right: 300px;
+    width: 75%;
+}
+    
+#longrec{
+    height:100vh;
+    width: 300px;
+    background-color:#AEB1B0;
+    text-align:center;
+
+
+}
+
+#use_acc{
+    width: 20px;
+    margin-right: 10px;
+  
+}
+
+#hori_line{
+    width: 10%;
+    size: 10px;
+    align-content:center;
+
+}
+
+#topic{
+    text-size-adjust: medium;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 28%;
+    margin-top: -50%;
+}
+
+#thinrec{
+    border-left-width: 200px;
+    height: 80px;
+    width: 1125px;
+    background-color: rgb(41, 136, 195);
+
+    margin-left: 23%;
+    margin-top: 4%;
+    border-radius: 5px;
+
+}
+
+.card{
+    background-color: #AEB1B0;
+    width: 1125px;
+    height: 400px;
+    margin-left: 23%;
+    margin-top: 2%;
+    border-style: solid;   
+}
+
+#thinrec_ash{
+    border-left-width: 200px;
+    height: 80px;
+    width: 1125px;
+    background-color:#AEB1B0;
+    margin-left: 23%;
+    margin-top: 2%;
+    text-align: center;
+}
