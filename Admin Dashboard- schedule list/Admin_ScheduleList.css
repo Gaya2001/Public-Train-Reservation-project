@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+/* =====================Side navigation Bar========================= */
+
+
+.Administrator {
+
+  width: 83.7%;
+  height: 70px;
+  position: absolute;
+  left: 250px;
+  top: 0;
+  background-color: #dcd8d9;
+  font-size: 40px;
+  text-align: center;
+  line-height: 100px;
+  flex-shrink: 0;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 16.4%;
+  height: 100%;
+  background-image: url("/images/Screenshot_train.png");
+  font-family: 'Francois One', sans-serif;
+
+}
+
+span .IMAGINE {
+  color: aqua;
+}
+
+.sidebar header {
+
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  /* background: black; */
+  user-select: none;
+}
+
+.LOGO_ADMIN {
+  font-family: 'Courgette', cursive;
+}
+
+
+.sidebar .DATE {
+  background: rgba(47, 59, 65, 1);
+  line-height: 50px;
+}
+
+.sidebar .SUPPORT_STAFF {
+  margin-top: 50px;
+  margin-bottom: 55px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  line-height: 55px;
+
+
+}
+
+.sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 50px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  margin-bottom: 25px;
+
+
+}
+
+/* ========Buttons color============= */
+
+.Home {
+  background-color: rgba(62, 147, 195, 1);
+}
+
+.Feedback {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.Season_inquiry {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.Users {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.News {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.Logout {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+
+/* ========Buttons hover color============= */
+
+.sidebar ul li :hover {
+
+  background-color: rgba(62, 147, 195, 1);
+}
+.blue-bar {
+    background-color: rgb(0, 162, 255);/*blue bar color*/
+    color: white;/*train list text color*/
+    margin:250px 380px;
+    width:1800px;
+    padding:10px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 150px;
+    
+  }
+  
+  .Route-list {
+    text-align: left;/*Train list text align*/
+  }
+  
+ .add-new-Route {
+     margin-left:1650px; /*add new Route button align*/
+  }
+  .search-bar{
+    margin-left:1980px;
+  }
+  
+  table {
+    margin-left:500px;
+    width: 65%;
+    border-collapse: separate;/* border  separated */
+    
+  }
+  .center {
+    margin-left: auto;/*table align*/
+    margin-right: auto;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  th {
+    background-color: #ffffff;
+  }
+  td{
+    background-color: #15c4d8;
+  }
+  .action_btn
+  {
+    display: flex;
+    justify-content: center;
+    gap:10px;
+
+  }
+  .action_btn>a{
+    text-decoration: none;
+   /* color:#444;
+    background-color: red;*/
+    border:1px solid orange;
+    display: inline-block;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+  }
+  .action_btn>a:nth-child(1){
+    background-color: rgb(17, 192, 227);
+    border-color: aqua;
+  }
+  /*.action_btn>a:nth-child(2){
+    background-color: rgb(231, 8, 15);
+    border-color: aqua;
+  }

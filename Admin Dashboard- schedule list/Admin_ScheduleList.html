@@ -1,13 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="A_schedule.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- ========================Icon Link======================= -->
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- ===============Google Font Link=================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Francois+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Admin_ScheduleList.css">
 </head>
 <body>
-    
+   <!-- ============== Side navigation Bar============= -->
+
+   <div class="NAME">
+    <div class="Administrator">Administrator Dashboard </div>
+</div>
+
+<div class="sidebar">
+    <header>
+        <h2 class="LOGO_ADMIN"><span class="IMAGINE">IMAGINE</span> SEATS</h2>
+    </header>
+    <header class="DATE">WED 13, OCT 21</header>
+    <header class="SUPPORT_STAFF">ADMIN</header>
+    <ul>
+        <li class="Home"><a href="#HOME"><i class=""></i>HOME</a></li>
+        <li class="Feedback"><a href="Feedback"><i class=""></i>FEEDBACK</a></li>
+        <li class="Season_inquiry"><a href="Season_inquiry"><i class=""></i>SEASON INQUIRiES</a></li>
+        <li class="Users"><a href="Users"><i class=""></i>USERS</a></li>
+        <li class="News"><a href="News"><i class=""></i>NEWS</a></li>
+        <li class="Logout"><a href="Logout"><i class=""></i>LOG OUT</a></li>
+
+    </ul>
+</div>
+
+    <div class="blue-bar">   <!-- blue bar -->
+    <h3 class="Route-list">Train List</h3>
+    <div>
+    <button class="add-new-Route">ADD NEW ROUTE</button> <!--ADD NEW ROUT Button--> 
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="search-bar"> <!--search-bar--> 
+    <span><b>search</b></span>
+      <input type="text"  placeholder="Search.."/>
+  </div>
+  <br>
+  <br>
+  <table width="100%" class="center ">  <!--Train list table--> 
+    <thead>   <!--header content in an HTML table--> 
+      <tr>
+        <th>#</th>
+        <th>Train Name</th> 
+        <th>Rote</th>
+        <th>F.C Fee</th>
+        <th>S.C Fee</th>
+        <th>T.C Fee</th>
+        <th>Action</th>th>
+      </tr>
+    </thead>
+    <tbody>  <!--body content in an HTML table--> 
+      <tr>
+        <td>01</td>
+        <td>Galle-Matara</td> 
+        <td>Galle-Matara</td>
+        <td>560</td>
+        <td>420</td>
+        <td>230</td>
+        <td><span class="action_btn"><a href="#">Edit</a> <br><a href="#">Delete</a></span></td>  <!--Edit and Delete button--> 
+      </tr>
+      <tr>
+        <td></td>
+        <td></td> 
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span class="action_btn"><a href="#">Edit</a> <br><a href="#">Delete</a></span></td>  <!--Edit and Delete button-->
+      </tr>
+      <tr>
+        <td></td>
+        <td></td> 
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span class="action_btn"><a href="#">Edit</a> <br><a href="#">Delete</a></span></td>  <!--Edit and Delete button--> 
+      </tr>
+    </tbody>
+  </table>
 </body>
 
 </html>
