@@ -30,7 +30,7 @@
   left: 0;
   width: 16.4%;
   height: 100%;
-  background-image: url("/images/Screenshot\ 2023-10-08\ 023753.png");
+  background-image: url("/images/Screenshot_train.png");
   font-family: 'Francois One', sans-serif;
 
 }
@@ -131,7 +131,7 @@ span .IMAGINE {
 
 /* ======================Blue bar==================== */
 
-.Add_Train {
+.Add_Schedule {
   width: 82.4%;
   height: 47px;
   position: absolute;
@@ -156,10 +156,10 @@ button {
   font-family: 'Francois One', sans-serif;
 }
 
-.ADD_NEW_TRAIN {
-  margin-left: 90px;
+.ADD_NEW_SCHEDULE {
+  margin-left: 1100px;
   border-radius: 4px;
-  left: 100;
+  /*left: 10000;*/
 }
 
 /* ============================Table========================= */
