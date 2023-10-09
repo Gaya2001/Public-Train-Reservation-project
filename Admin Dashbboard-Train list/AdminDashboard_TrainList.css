@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-
+    /* font-family: 'Francois One', sans-serif; */
 }
 
 /* =====================Side navigation Bar========================= */
@@ -127,4 +127,67 @@ span .IMAGINE {
 .sidebar ul li :hover {
 
     background-color: rgba(62, 147, 195, 1);
+}
+
+
+.Add_Train {
+    width: 82.4%;
+    height: 47px;
+    position: absolute;
+    left: 270px;
+    top: 155px;
+    background-color: rgba(62, 147, 195, 1);
+    /* text-align: center; */
+    /* line-height: 100px; */
+    flex-shrink: 0;
+    justify-content: center;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+button {
+    background: rgba(48, 91, 115, 1);
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.Add_Train,
+button {
+    display: inline-block;
+}
+
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 65%;
+    /* Adjust the width as needed */
+
+    text-align: center;
+    margin-left: 18%;
+    /*This is where the move the table from left side*/
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+table,
+th,
+td {
+    border: 3px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    padding: 15px;
 }
