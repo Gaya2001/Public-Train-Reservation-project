@@ -1,51 +1,57 @@
 body {
-    font-family: sans-serif;
-   
-  }
+  font-family: sans-serif;
+
+}
 
 .anu-user-info {
-    text-align: left;
-    width: 1580px; 
-    margin:  150px 350px ;
-    margin-bottom: 70px;
-    background-color: #3e93c2;
-    color: #fafafa;
-    padding: 10px;
-  }
-  .anu-search-bar{
-    margin-right: 150px;
-    
-  }
-  table {
-    width: 78%;
-    border-collapse: collapse;
-  }
-  
-  th {
-    border: 1px solid black;
-    padding: 20px;
-    text-align: center;
-  }
-  td {
-    border: 1px solid black;
-    padding: 50px;
-    text-align: center;
-  }
+  text-align: left;
+  width: 1580px;
+  margin: 150px 350px;
+  margin-bottom: 70px;
+  background-color: #3e93c2;
+  color: #fafafa;
+  padding: 10px;
+}
 
-  td, th {
-    text-align: center;
+.anu-search-bar {
+  margin-right: 150px;
 
-  } 
-  #anu-boarder {
-    text-align: center;
-    margin-left: 355px;
-    
-  }   
-  * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+}
+
+table {
+  width: 78%;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  padding: 50px;
+  text-align: center;
+}
+
+td,
+th {
+  text-align: center;
+
+}
+
+#anu-boarder {
+  text-align: center;
+  margin-left: 355px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 
 }
 
@@ -54,76 +60,76 @@ body {
 
 .Administrator {
 
-    width: 83.7%;
-    height: 70px;
-    position: absolute;
-    left: 250px;
-    top: 0;
-    background-color: #dcd8d9;
-    font-size: 40px;
-    text-align: center;
-    line-height: 100px;
-    flex-shrink: 0;
-    justify-content: center;
-    font-weight: 700;
+  width: 83.7%;
+  height: 70px;
+  position: absolute;
+  left: 250px;
+  top: 0;
+  background-color: #dcd8d9;
+  font-size: 40px;
+  text-align: center;
+  line-height: 100px;
+  flex-shrink: 0;
+  justify-content: center;
+  font-weight: 700;
 }
 
 .sidebar {
-    position: fixed;
-    left: 0;
-    width: 16.4%;
-    height: 100%;
-    background-image: url("/images/Screenshot_train.png");
-    font-family: 'Francois One', sans-serif;
+  position: fixed;
+  left: 0;
+  width: 16.4%;
+  height: 100%;
+  background-image: url("/images/Screenshot\ 2023-10-08\ 023753.png");
+  font-family: 'Francois One', sans-serif;
 
 }
 
 span .IMAGINE {
-    color: aqua;
+  color: aqua;
 }
 
 .sidebar header {
 
-    font-size: 22px;
-    color: white;
-    text-align: center;
-    line-height: 70px;
-    /* background: black; */
-    user-select: none;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  /* background: black; */
+  user-select: none;
 }
 
 .LOGO_ADMIN {
-    font-family: 'Courgette', cursive;
+  font-family: 'Courgette', cursive;
 }
 
 
 .sidebar .DATE {
-    background: rgba(47, 59, 65, 1);
-    line-height: 50px;
+  background: rgba(47, 59, 65, 1);
+  line-height: 50px;
 }
 
 .sidebar .SUPPORT_STAFF {
-    margin-top: 50px;
-    margin-bottom: 55px;
-    border-top: 4px solid black;
-    border-bottom: 4px solid black;
-    line-height: 55px;
+  margin-top: 50px;
+  margin-bottom: 55px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  line-height: 55px;
 
 
 }
 
 .sidebar ul a {
-    display: block;
-    height: 100%;
-    width: 100%;
-    line-height: 50px;
-    font-size: 20px;
-    color: white;
-    padding-left: 40px;
-    box-sizing: border-box;
-    /* border-top: 2px solid black;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 50px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  /* border-top: 2px solid black;
     border-bottom: 2px solid black; */
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 
 
 }
@@ -131,27 +137,27 @@ span .IMAGINE {
 /* ========Buttons color============= */
 
 .Home {
-    background-color: rgba(62, 147, 195, 1);
+  background-color: rgba(62, 147, 195, 1);
 }
 
 .Feedback {
-    background-color: rgba(47, 59, 65, 1);
+  background-color: rgba(47, 59, 65, 1);
 }
 
 .Season_inquiry {
-    background-color: rgba(47, 59, 65, 1);
+  background-color: rgba(47, 59, 65, 1);
 }
 
 .Users {
-    background-color: rgba(47, 59, 65, 1);
+  background-color: rgba(47, 59, 65, 1);
 }
 
 .News {
-    background-color: rgba(47, 59, 65, 1);
+  background-color: rgba(47, 59, 65, 1);
 }
 
 .Logout {
-    background-color: rgba(47, 59, 65, 1);
+  background-color: rgba(47, 59, 65, 1);
 }
 
 
@@ -162,31 +168,30 @@ span .IMAGINE {
 
 .sidebar ul li :hover {
 
-    background-color: rgba(62, 147, 195, 1);
+  background-color: rgba(62, 147, 195, 1);
 }
-  
-  th {
-    background-color:white;
-  }
 
-  .anu-buttons {
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    
-  }
-  .anu-search-bar {
-    float: right;
-    margin-bottom: 30px;
-  }
-  
-  
-  .buttons button {
-    margin-bottom: 5px;
-    width: 50px;
-    /* align: center; */
-    background-color: #eee;
-    border: 1px solid black;
-  }
-  
-  
+th {
+  background-color: white;
+}
+
+.anu-buttons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.anu-search-bar {
+  float: right;
+  margin-bottom: 30px;
+}
+
+
+.buttons button {
+  margin-bottom: 5px;
+  width: 50px;
+  /* align: center; */
+  background-color: #eee;
+  border: 1px solid black;
+}
