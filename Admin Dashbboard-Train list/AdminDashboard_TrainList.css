@@ -144,18 +144,21 @@ span .IMAGINE {
     font-weight: 500;
     border-radius: 5px;
     font-size: 25px;
+
 }
 
 button {
     background: rgba(48, 91, 115, 1);
     color: white;
     font-size: 19px;
-    font-weight: 700;
+    /* font-weight: 700; */
+    font-family: 'Francois One', sans-serif;
 }
 
-.Add_Train,
-button {
-    display: inline-block;
+.ADD_NEW_TRAIN {
+    margin-left: 90px;
+    border-radius: 4px;
+    left: 100;
 }
 
 
@@ -163,16 +166,18 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    max-height: 800px;
+    font-family: 'Francois One', sans-serif;
 }
 
 table {
     border-collapse: collapse;
-    width: 65%;
+    width: 75%;
     /* Adjust the width as needed */
 
     text-align: center;
     margin-left: 18%;
+    margin-top: 17%;
     /*This is where the move the table from left side*/
 }
 
@@ -184,10 +189,23 @@ table,
 th,
 td {
     border: 3px solid black;
-    text-align: left;
-    padding: 10px;
+    text-align: center;
+    padding: 8px;
 }
 
 td {
-    padding: 15px;
+    padding: 10px;
+}
+
+.EDIT {
+
+    background-color: rgba(62, 147, 195, 1);
+
+
+}
+
+.DELETE {
+
+    background-color: red;
+
 }
