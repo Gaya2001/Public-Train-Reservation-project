@@ -129,6 +129,7 @@ span .IMAGINE {
     background-color: rgba(62, 147, 195, 1);
 }
 
+/* ======================Blue bar==================== */
 
 .Add_Train {
     width: 82.4%;
@@ -161,6 +162,7 @@ button {
     left: 100;
 }
 
+/* ============================Table========================= */
 
 .Container {
     display: flex;
@@ -176,8 +178,8 @@ table {
     /* Adjust the width as needed */
 
     text-align: center;
-    margin-left: 18%;
-    margin-top: 17%;
+    margin-left: 17%;
+    margin-top: 15%;
     /*This is where the move the table from left side*/
 }
 
