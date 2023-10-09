@@ -14,7 +14,7 @@
   width: 83.7%;
   height: 70px;
   position: absolute;
-  left: 250px;
+  left: 380px;
   top: 0;
   background-color: #dcd8d9;
   font-size: 40px;
@@ -95,15 +95,20 @@ span .IMAGINE {
   background-color: rgba(47, 59, 65, 1);
 }
 
-.Season_inquiry {
+.Route {
+  background-color: rgba(47, 59, 65, 1);
+}
+.Train_List{
+  background-color: rgba(47, 59, 65, 1);
+}
+.Schedule_List {
   background-color: rgba(47, 59, 65, 1);
 }
 
+.Reservation_List{
+  background-color: rgba(47, 59, 65, 1);
+}
 .Users {
-  background-color: rgba(47, 59, 65, 1);
-}
-
-.News {
   background-color: rgba(47, 59, 65, 1);
 }
 
@@ -122,7 +127,7 @@ span .IMAGINE {
     background-color: rgb(0, 162, 255);/*blue bar color*/
     color: white;/*train list text color*/
     margin:250px 380px;
-    width:1800px;
+    width:1909px;
     padding:10px;
     text-align: left;
     margin-bottom: 30px;
@@ -132,37 +137,70 @@ span .IMAGINE {
   
   .Route-list {
     text-align: left;/*Train list text align*/
+    font-size: 30px;
   }
   
  .add-new-Route {
-     margin-left:1650px; /*add new Route button align*/
+     margin-left:1550px; /*add new Route button align*/
+     width: 300px;
+     height:35px;
+     font-size: 30px;
   }
   .search-bar{
-    margin-left:1980px;
+    margin-top: 20px;
+    margin-left:1800px;
+    font-size: 30px; 
   }
-  
+  input{
+    height: 40px;
+    width: 500px;
+    font-size: 30px;
+  }
+ 
   table {
+    margin-top: 100px;
     margin-left:500px;
-    width: 65%;
+    width: 75%;
     border-collapse: separate;/* border  separated */
     
   }
-  .center {
-    margin-left: auto;/*table align*/
-    margin-right: auto;
+  .content-table  {
+    margin-left: 1800;/*table align*/
+  }
+  .content-table thead tr{
+    background-color:rgba(160, 160, 159, 0.466);
+    color: rgb(12, 12, 12);
+    
   }
 
   th, td {
     border: 1px solid black;
-    padding: 5px;
-  }
-  
-  th {
-    padding: 20px;
-    background-color: #ffffff;
-  }
-  td{
     padding: 40px;
-    background-color: #93a0a1;
+    font-size: 30px;
+    text-align: center;
   }
-  
+
+  .content-table tbody tr:nth-of-type(even)
+ {
+   background-color: rgba(160, 160, 159, 0.466);
+ }
+ 
+ .id1
+ {
+   background-color: rgb(98, 167, 241);
+   width: 100px;
+   height: 50px;
+   border-radius: 3rem;
+   font-size: 30px;
+   
+ }
+ .id2
+ {
+   background-color: rgb(224, 97, 127);
+   width: 100px;
+   height: 50px;
+   border-radius: 3rem;
+   font-size: 30px;
+   
+ }
+ 

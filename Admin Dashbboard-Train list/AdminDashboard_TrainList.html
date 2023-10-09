@@ -30,11 +30,13 @@
     <header class="DATE">WED 13, OCT 21</header>
     <header class="SUPPORT_STAFF">ADMIN</header>
     <ul>
-        <li class="Home"><a href="#HOME"><i class=""></i>HOME</a></li>
+        <li class="Home"><a href="HOME"><i class=""></i>HOME</a></li>
         <li class="Feedback"><a href="Feedback"><i class=""></i>FEEDBACK</a></li>
-        <li class="Season_inquiry"><a href="Season_inquiry"><i class=""></i>SEASON INQUIRiES</a></li>
+        <li class="Route"><a href="Route"><i class=""></i>ROUTE</a></li>
+        <li class="Train_List"><a href="Train_List"><i class=""></i>TRAIN LIST</a></li>
+        <li class="Schedule_List"><a href="Schedule_List"><i class=""></i>SCHEDULE LIST</a></li>
+        <li class="Reservation_List"><a href="Reservation_List"><i class=""></i>RESERVATION LIST</a></li>
         <li class="Users"><a href="Users"><i class=""></i>USERS</a></li>
-        <li class="News"><a href="News"><i class=""></i>NEWS</a></li>
         <li class="Logout"><a href="Logout"><i class=""></i>LOG OUT</a></li>
 
     </ul>
@@ -49,19 +51,19 @@
   <br>
   <br>
   <div class="search-bar"> <!--search-bar--> 
-    <span><b>search</b></span>
+    <span><b>Search</b></span>
       <input type="text"  placeholder="Search.."/>
   </div>
-  <br>
-  <br>
-  <table width="100%" class="center ">  <!--Train list table--> 
+
+ 
+  <table  class="content-table ">  <!--Train list table--> 
     <thead>   <!--header content in an HTML table--> 
       <tr>
         <th>#</th>
         <th>Train Name</th> 
-        <th>First class seats</th>
-        <th>Second class seats</th>
-        <th>Third class seats</th>
+        <th>First Class Seate</th>
+        <th>Second Class Seate</th>
+        <th>Third Class Seate</th>
         <th>Action</th>
       </tr>
     </thead>
@@ -72,12 +74,12 @@
         <td>150</td>
         <td>200</td>
         <td>350</td>
-        <td><div class="action_btn"><span  style="background-color: rgb(237, 235, 241)"><a href="#">Edit</a></span>
-          <span style="background-color: rgb(227, 101, 17);"> <a href="#">Delete</a></span></div></td>  <!--Edit and Delete button--> 
+        <td><span><button class="id1"><a href="#">Edit</a></button>
+          <button class="id2"> <a href="#">Delete</a></button></span></td>  <!--Edit and Delete button--> 
       </tr>
       <tr>
         <td></td>
-        <td></td> 
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -85,13 +87,13 @@
       </tr>
       <tr>
         <td></td>
-        <td></td> 
         <td></td>
         <td></td>
         <td></td>
         <td></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
 </body>
-
 </html>
