@@ -1,0 +1,87 @@
+
+/* header bar on administrator dashboard */
+    header{
+    background-image:url(../images/Main_banner.jpg);
+    width: 100%; 
+    height: 60px;
+    margin-top: -1.55%;
+    text-align: center;
+}
+
+/* long bar with links and icons */
+#longrec{
+    height:100vh;
+    width: 300px;
+    background-image:url(../images/Main_banner.jpg);
+    text-align:center;
+    filter: brightness(90%);
+    background-position-y: 55%;
+    background-position-x: 52%;
+    margin-top: -85px;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+
+}
+/* table adjust */
+#inquitable{
+    margin-left: 305px;
+    margin-top: 5%;
+    background-color: #aeb1b0;
+    height: 50px;
+    width: 79%;
+    border-collapse: collapse;
+}
+
+/* table row and column content adjust */
+td , th{
+    border: 1px solid black;
+    margin: 10%;
+    text-align: center;
+    
+}
+/* logo adjust */
+#logo{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+/* blue feedback bar adjust */
+#blustrap{
+    height: 30px;
+    width: 77.5%;
+    background-color: rgb(41, 136, 195);
+    margin-left:21.5%;
+    margin-top: -45%;
+    border-radius: 5px;
+    position: absolute;
+}
+/* feedback bar text adjust */
+#blustrap > h4{
+    margin: 5px;
+}
+/* search bar position adjust */
+#search{
+    margin-top: -38%;
+    margin-left: 50%;
+    padding-left: 490px;
+}
+/* changing the link font color */
+a{
+    color: white;
+    text-decoration: none;
+}
+/* change the content text color and position */
+#longrec > h4{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(35, 34, 34);
+    text-align: vertical(center);
+    margin-top: 0px;
+    margin-bottom: 52px;
+
+}

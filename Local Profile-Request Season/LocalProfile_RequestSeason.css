@@ -5,7 +5,7 @@
 
 header{
     background-image: url(../images/Main_banner.jpg);
-    opacity:0.5;
+    filter: brightness(90%);
     background-position-y:65%;
 }
 
@@ -39,8 +39,13 @@ header{
     width: 300px;
     background-color:#AEB1B0;
     text-align:center;
+}
 
-
+#longrec > h4 > a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: larger;
 }
 
 #use_acc{
@@ -94,3 +99,4 @@ header{
     margin-top: 2%;
     text-align: center;
 }
+
