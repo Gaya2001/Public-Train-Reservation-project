@@ -2,208 +2,186 @@
 <html lang="en">
 
 <head>
-  <<<<<<< HEAD <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Admin_ScheduleList.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Admin_ScheduleList.css">
 
-    <!-- ========================Icon Link======================= -->
+  <!-- ========================Icon Link======================= -->
 
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- ===============Google Font Link=================== -->
+  <!-- ===============Google Font Link=================== -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Francois+One&display=swap" rel="stylesheet">
-    =======
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Admin_ScheduleList.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Francois+One&display=swap" rel="stylesheet">
 
-    <!-- ========================Icon Link======================= -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Admin_ScheduleList.css">
 
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- ========================Icon Link======================= -->
 
-    <!-- ===============Google Font Link=================== -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Francois+One&display=swap" rel="stylesheet">
-    >>>>>>> 8624cf3deeca233f4eeb209244b6af375f2966c8
+  <!-- ===============Google Font Link=================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Francois+One&display=swap" rel="stylesheet">
+
 
 </head>
 
 <body>
-  <<<<<<< HEAD <!--==============Side navigation Bar=============-->
+  <!--==============Side navigation Bar=============-->
 
-    <div class="NAME">
-      <div class="Administrator">Administrator Dashboard </div>
+  <div class="NAME">
+    <div class="Administrator">Administrator Dashboard </div>
+  </div>
+
+  <div class="sidebar">
+    <header>
+      <h2 class="LOGO_ADMIN"><span class="IMAGINE">IMAGINE</span> SEATS</h2>
+    </header>
+    <header class="DATE">WED 13, OCT 21</header>
+    <header class="SUPPORT_STAFF">ADMIN</header>
+    <ul>
+      <li class="Home"><a href="#HOME"><i class=""></i>HOME</a></li>
+      <li class="Feedback"><a href="Feedback"><i class=""></i>FEEDBACK</a></li>
+      <li class="Route"><a href="Season_inquiry"><i class=""></i>ROUTE</a></li>
+      <li class="Train_List"><a href="Users"><i class=""></i>TRAIN LIST</a></li>
+      <li class="Schedule_List"><a href="News"><i class=""></i>SCHEDULE LIST</a></li>
+      <li class="Reservation_List"><a href="News"><i class=""></i>RESERVATION LIST </a></li>
+      <li class="USERS"><a href="News"><i class=""></i>USERS</a></li>
+      <li class="Logout"><a href="Logout"><i class=""></i>LOG OUT</a></li>
+
+    </ul>
+  </div>
+
+  <!-- ======================Blue Bar========================= -->
+
+  <div class="Add_Schedule">
+    <h2 class="Schedule-list">Schedule List</h2>
+    <div>
+      <button class="ADD_NEW_SCHEDULE">ADD NEW SCHEDULE</button>
     </div>
-
-    <div class="sidebar">
-      <header>
-        <h2 class="LOGO_ADMIN"><span class="IMAGINE">IMAGINE</span> SEATS</h2>
-      </header>
-      <header class="DATE">WED 13, OCT 21</header>
-      <header class="SUPPORT_STAFF">ADMIN</header>
-      <ul>
-        <li class="Home"><a href="#HOME"><i class=""></i>HOME</a></li>
-        <li class="Feedback"><a href="Feedback"><i class=""></i>FEEDBACK</a></li>
-        <li class="Route"><a href="Season_inquiry"><i class=""></i>ROUTE</a></li>
-        <li class="Train_List"><a href="Users"><i class=""></i>TRAIN LIST</a></li>
-        <li class="Schedule_List"><a href="News"><i class=""></i>SCHEDULE LIST</a></li>
-        <li class="Reservation_List"><a href="News"><i class=""></i>RESERVATION LIST </a></li>
-        <li class="USERS"><a href="News"><i class=""></i>USERS</a></li>
-        <li class="Logout"><a href="Logout"><i class=""></i>LOG OUT</a></li>
-
-      </ul>
-    </div>
-
-    <!-- ======================Blue Bar========================= -->
-
-    <div class="Add_Schedule">
-      <h2 class="Schedule-list">Schedule List</h2>
-      <div>
-        <button class="ADD_NEW_SCHEDULE">ADD NEW SCHEDULE</button>
-      </div>
-    </div>
+  </div>
 
 
 
 
-    <!-- ========================Table============================ -->
-    <div class="Container">
+  <!-- ========================Table============================ -->
+  <div class="Container">
 
-      <table class="">
-        <tr>
-          <th>#</th>
-          <th>Train name</th>
-          <th>Route</th>
-          <th>Depature</th>
-          <th>F.C Fee</th>
-          <th>S.C Fee</th>
-          <th>T.C Fee</th>
-          <th>Action</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Ruhunu kumari</td>
-          <td>Galle-Matara</td>
-          <td>Galle-Matara</td>
-          <td>560</td>
-          <td>420</td>
-          <td>230</td>
-          <td><button class="EDIT">EDIT</button>
-            <button class="DELETE">DELETE</button>
-          </td>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Ruhunu kumari</td>
-          <td>Galle-Matara</td>
-          <td>Galle-Matara</td>
-          <td>560</td>
-          <td>420</td>
-          <td>230</td>
-          <td><button class="EDIT">EDIT</button>
-            <button class="DELETE">DELETE</button>
-          </td>
-        <tr>
-          <td>1</td>
-          <td>Ruhunu kumari</td>
-          <td>Galle-Matara</td>
-          <td>Galle-Matara</td>
-          <td>560</td>
-          <td>420</td>
-          <td>230</td>
-          <td><button class="EDIT">EDIT</button>
-            <button class="DELETE">DELETE</button>
-          </td>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Ruhunu kumari</td>
-          <td>Galle-Matara</td>
-          <td>Galle-Matara</td>
-          <td>560</td>
-          <td>420</td>
-          <td>230</td>
-          <td><button class="EDIT">EDIT</button>
-            <button class="DELETE">DELETE</button>
-          </td>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Ruhunu kumari</td>
-          <td>Galle-Matara</td>
-          <td>Galle-Matara</td>
-          <td>560</td>
-          <td>420</td>
-          <td>230</td>
-          <td><button class="EDIT">EDIT</button>
-            <button class="DELETE">DELETE</button>
-          </td>
-        </tr>
+    <table class="">
+      <tr>
+        <th>#</th>
+        <th>Train name</th>
+        <th>Route</th>
+        <th>Depature</th>
+        <th>F.C Fee</th>
+        <th>S.C Fee</th>
+        <th>T.C Fee</th>
+        <th>Action</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Ruhunu kumari</td>
+        <td>Galle-Matara</td>
+        <td>Galle-Matara</td>
+        <td>560</td>
+        <td>420</td>
+        <td>230</td>
+        <td><button class="EDIT">EDIT</button>
+          <button class="DELETE">DELETE</button>
+        </td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Ruhunu kumari</td>
+        <td>Galle-Matara</td>
+        <td>Galle-Matara</td>
+        <td>560</td>
+        <td>420</td>
+        <td>230</td>
+        <td><button class="EDIT">EDIT</button>
+          <button class="DELETE">DELETE</button>
+        </td>
+      <tr>
+        <td>1</td>
+        <td>Ruhunu kumari</td>
+        <td>Galle-Matara</td>
+        <td>Galle-Matara</td>
+        <td>560</td>
+        <td>420</td>
+        <td>230</td>
+        <td><button class="EDIT">EDIT</button>
+          <button class="DELETE">DELETE</button>
+        </td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Ruhunu kumari</td>
+        <td>Galle-Matara</td>
+        <td>Galle-Matara</td>
+        <td>560</td>
+        <td>420</td>
+        <td>230</td>
+        <td><button class="EDIT">EDIT</button>
+          <button class="DELETE">DELETE</button>
+        </td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Ruhunu kumari</td>
+        <td>Galle-Matara</td>
+        <td>Galle-Matara</td>
+        <td>560</td>
+        <td>420</td>
+        <td>230</td>
+        <td><button class="EDIT">EDIT</button>
+          <button class="DELETE">DELETE</button>
+        </td>
+      </tr>
 
-        <tr>
-          <td>1</td>
-          <td>Ruhunu kumari</td>
-          <td>Galle-Matara</td>
-          <td>Galle-Matara</td>
-          <td>560</td>
-          <td>420</td>
-          <td>230</td>
-          <td><button class="EDIT">EDIT</button>
-            <button class="DELETE">DELETE</button>
-          </td>
-        </tr>
+      <tr>
+        <td>1</td>
+        <td>Ruhunu kumari</td>
+        <td>Galle-Matara</td>
+        <td>Galle-Matara</td>
+        <td>560</td>
+        <td>420</td>
+        <td>230</td>
+        <td><button class="EDIT">EDIT</button>
+          <button class="DELETE">DELETE</button>
+        </td>
+      </tr>
 
-        <tr>
-          <td>1</td>
-          <td>Ruhunu kumari</td>
-          <td>Galle-Matara</td>
-          <td>Galle-Matara</td>
-          <td>560</td>
-          <td>420</td>
-          <td>230</td>
-          <td><button class="EDIT">EDIT</button>
-            <button class="DELETE">DELETE</button>
-          </td>
-        </tr>
+      <tr>
+        <td>1</td>
+        <td>Ruhunu kumari</td>
+        <td>Galle-Matara</td>
+        <td>Galle-Matara</td>
+        <td>560</td>
+        <td>420</td>
+        <td>230</td>
+        <td><button class="EDIT">EDIT</button>
+          <button class="DELETE">DELETE</button>
+        </td>
+      </tr>
 
-      </table>
+    </table>
 
 
-    </div>
+  </div>
 
-    =======
-    <!-- ============== Side navigation Bar============= -->
 
-    <div class="NAME">
-      <div class="Administrator">Administrator Dashboard </div>
-    </div>
+  <!-- ============== Side navigation Bar============= -->
 
-    <div class="sidebar">
-      <header>
-        <h2 class="LOGO_ADMIN"><span class="IMAGINE">IMAGINE</span> SEATS</h2>
-      </header>
-      <header class="DATE">WED 13, OCT 21</header>
-      <header class="SUPPORT_STAFF">ADMIN</header>
-      <ul>
-        <li class="Home"><a href="#HOME"><i class=""></i>HOME</a></li>
-        <li class="Feedback"><a href="Feedback"><i class=""></i>FEEDBACK</a></li>
-        <li class="Route"><a href="Season_inquiry"><i class=""></i>ROUTE</a></li>
-        <li class="Train_List"><a href="Users"><i class=""></i>TRAIN LIST</a></li>
-        <li class="Schedule_List"><a href="News"><i class=""></i>SCHEDULE LIST</a></li>
-        <li class="Reservation_List"><a href="News"><i class=""></i>RESERVATION LIST </a></li>
-        <li class="USERS"><a href="News"><i class=""></i>USERS</a></li>
-        <li class="Logout"><a href="Logout"><i class=""></i>LOG OUT</a></li>
 
-      </ul>
-    </div>
-    >>>>>>> 8624cf3deeca233f4eeb209244b6af375f2966c8
 
 </body>
 
