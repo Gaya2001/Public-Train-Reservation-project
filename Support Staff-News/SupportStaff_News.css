@@ -121,3 +121,67 @@ span .IMAGINE {
 
     background-color: rgba(62, 147, 195, 1);
 }
+
+
+/* ==================Blue Bar================ */
+
+.anu-user-News {
+    width: 83.1%;
+    height: 46px;
+    position: relative;
+    left: 259px;
+    top: 126px;
+    background-color: rgba(62, 147, 195, 1);
+    font-size: 33px;
+    text-align: left;
+    line-height: 54px;
+    flex-shrink: 0;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: 'Francois One', sans-serif;
+}
+
+
+
+/* ============================Table========================= */
+
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    /* Adjust the width as needed */
+
+    text-align: center;
+    margin-left: 21%;
+    /* margin-top: 9%; */
+    /*This is where the move the table from left side*/
+}
+
+.anu-Table1 {
+    margin-top: 12%;
+}
+
+.anu-Table2 {
+    margin-top: 4%;
+}
+
+.anu-Table3 {
+    margin-top: 4%;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+table,
+th,
+td {
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+td {
+    padding: 29px;
+}

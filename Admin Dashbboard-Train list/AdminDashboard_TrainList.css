@@ -141,10 +141,12 @@ span .IMAGINE {
     /* text-align: center; */
     /* line-height: 100px; */
     flex-shrink: 0;
-    justify-content: center;
-    font-weight: 500;
+    justify-content: left;
+    font-weight: 700;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 31px;
+    line-height: 57px;
+    font-family: 'Francois One', sans-serif;
 
 }
 
@@ -157,9 +159,12 @@ button {
 }
 
 .ADD_NEW_TRAIN {
-    margin-left: 90px;
+    position: relative;
     border-radius: 4px;
-    left: 100;
+    left: 1400px;
+    top: 165px;
+
+
 }
 
 /* ============================Table========================= */
