@@ -1,9 +1,17 @@
 * {
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
   /* font-family: 'Francois One', sans-serif; */
+=======
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+>>>>>>> 8624cf3deeca233f4eeb209244b6af375f2966c8
 }
 
 /* =====================Side navigation Bar========================= */
@@ -11,6 +19,7 @@
 
 .Administrator {
 
+<<<<<<< HEAD
   width: 83.7%;
   height: 70px;
   position: absolute;
@@ -32,15 +41,43 @@
   height: 100%;
   background-image: url("/images/Screenshot_train.png");
   font-family: 'Francois One', sans-serif;
+=======
+    width: 83.7%;
+    height: 70px;
+    position: absolute;
+    left: 250px;
+    top: 0;
+    background-color: #dcd8d9;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    flex-shrink: 0;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 16.4%;
+    height: 100%;
+    background-image: url("/images/Screenshot\ 2023-10-08\ 023753.png");
+    font-family: 'Francois One', sans-serif;
+>>>>>>> 8624cf3deeca233f4eeb209244b6af375f2966c8
 
 }
 
 span .IMAGINE {
+<<<<<<< HEAD
   color: aqua;
+=======
+    color: aqua;
+>>>>>>> 8624cf3deeca233f4eeb209244b6af375f2966c8
 }
 
 .sidebar header {
 
+<<<<<<< HEAD
   font-size: 22px;
   color: white;
   text-align: center;
@@ -51,10 +88,23 @@ span .IMAGINE {
 
 .LOGO_ADMIN {
   font-family: 'Courgette', cursive;
+=======
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    /* background: black; */
+    user-select: none;
+}
+
+.LOGO_ADMIN {
+    font-family: 'Courgette', cursive;
+>>>>>>> 8624cf3deeca233f4eeb209244b6af375f2966c8
 }
 
 
 .sidebar .DATE {
+<<<<<<< HEAD
   background: rgba(47, 59, 65, 1);
   line-height: 50px;
 }
@@ -65,11 +115,24 @@ span .IMAGINE {
   border-top: 4px solid black;
   border-bottom: 4px solid black;
   line-height: 55px;
+=======
+    background: rgba(47, 59, 65, 1);
+    line-height: 50px;
+}
+
+.sidebar .SUPPORT_STAFF {
+    margin-top: 35px;
+    margin-bottom: 28px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    line-height: 55px;
+>>>>>>> 8624cf3deeca233f4eeb209244b6af375f2966c8
 
 
 }
 
 .sidebar ul a {
+<<<<<<< HEAD
   display: block;
   height: 100%;
   width: 100%;
@@ -81,6 +144,19 @@ span .IMAGINE {
   /* border-top: 2px solid black;
   border-bottom: 2px solid black; */
   margin-bottom: 13px;
+=======
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+    margin-bottom: 13px;
+>>>>>>> 8624cf3deeca233f4eeb209244b6af375f2966c8
 
 
 }
@@ -88,6 +164,7 @@ span .IMAGINE {
 /* ========Buttons color============= */
 
 .Home {
+<<<<<<< HEAD
   background-color: rgba(47, 59, 65, 1);
 }
 
@@ -117,6 +194,37 @@ span .IMAGINE {
 
 .Logout {
   background-color: rgba(47, 59, 65, 1);
+=======
+    background-color: rgba(47, 59, 65, 1);
+}
+
+.Feedback {
+    background-color: rgba(47, 59, 65, 1);
+}
+
+.Route {
+    background-color: rgba(62, 147, 195, 1);
+}
+
+.Train_List {
+    background-color: rgba(47, 59, 65, 1);
+}
+
+.Schedule_List {
+    background-color: rgba(47, 59, 65, 1);
+}
+
+.Reservation_List {
+    background-color: rgba(47, 59, 65, 1);
+}
+
+.USERS {
+    background-color: rgba(47, 59, 65, 1);
+}
+
+.Logout {
+    background-color: rgba(47, 59, 65, 1);
+>>>>>>> 8624cf3deeca233f4eeb209244b6af375f2966c8
 }
 
 /* ========Buttons hover color============= */
@@ -126,6 +234,7 @@ span .IMAGINE {
 
 .sidebar ul li :hover {
 
+<<<<<<< HEAD
   background-color: rgba(62, 147, 195, 1);
 }
 
@@ -209,4 +318,7 @@ td {
 .DELETE {
 
   background-color: red;
+=======
+    background-color: rgba(62, 147, 195, 1);
+>>>>>>> 8624cf3deeca233f4eeb209244b6af375f2966c8
 }
