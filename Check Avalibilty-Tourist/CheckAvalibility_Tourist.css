@@ -33,3 +33,67 @@ margin-inline-start: 5%;
  #me_account{
     margin-left: 1200px;
  } 
+
+ .first_rec{
+    background-color:#AEB1B0;
+    width: 100%;
+    height: 200px;
+    border-radius: 2%;   
+ }
+
+ .first_line{
+    margin-top: -30px;
+    border-width: 2px;
+    border-color: black;
+    margin-bottom: 200px;
+ }
+
+ .maintopic1{
+    margin-left: 25px;
+ }
+
+ .subtopic1{
+    margin-left: 25px;
+ }
+
+ .second_rec{
+    background-color:#AEB1B0;
+    width: 100%;
+    height: 200px;
+    border-radius: 2%; 
+      
+ }
+
+ .second_line{
+    margin-top: -30px;
+    border-width: 2px;
+    border-color: black;
+ }
+
+ .maintopic2{
+    margin-left: 25px;
+ }
+
+ .subtopic2{
+    margin-left: 25px;
+ }
+
+ 
+ .third_rec{
+    background-color:#AEB1B0;
+    width: 750px;
+    height: 600px;
+    margin-left: 400px;
+    border-radius: 2%; 
+      
+ }
+
+ .third_line{
+    margin-top: -20px;
+    border-width: 2px;
+    border-color: black;
+ }
+
+ .maintopic3{
+    margin-left: 300px;
+ }
