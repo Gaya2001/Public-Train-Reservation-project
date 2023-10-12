@@ -1,18 +1,15 @@
+
 <?php
-$DATABASE_HOST='localhost';
-$DATABASE_USER='root';
-$DATABASE_PASS='';
-$DATABASE_NAME='train reservation system';
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "testing registration";
 
-$con=mysqli_connect($DATABASE_HOST,$DATABASE_USER,$DATABASE_PASS,$DATABASE_NAME);
+// Create connection
+$conn = new mysqli($servername, $username, $password, $database);
 
-
-
-
-
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 ?>
-
-
-
-
-
