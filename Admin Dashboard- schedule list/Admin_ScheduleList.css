@@ -6,12 +6,11 @@
   /* font-family: 'Francois One', sans-serif; */
 }
 
-
-
 /* =====================Side navigation Bar========================= */
 
 
 .Administrator {
+
   width: 83.7%;
   height: 70px;
   position: absolute;
@@ -31,8 +30,9 @@
   left: 0;
   width: 16.4%;
   height: 100%;
-  background-image: url("/images/Screenshot_train.png");
+  background-image: url("/images/Screenshot\ 2023-10-08\ 023753.png");
   font-family: 'Francois One', sans-serif;
+
 }
 
 span .IMAGINE {
@@ -51,17 +51,6 @@ span .IMAGINE {
 
 .LOGO_ADMIN {
   font-family: 'Courgette', cursive;
-  font-size: 22px;
-  color: white;
-  text-align: center;
-  line-height: 70px;
-  /* background: black; */
-  user-select: none;
-}
-
-.LOGO_ADMIN {
-  font-family: 'Courgette', cursive;
-
 }
 
 
@@ -76,16 +65,8 @@ span .IMAGINE {
   border-top: 4px solid black;
   border-bottom: 4px solid black;
   line-height: 55px;
-  background: rgba(47, 59, 65, 1);
-  line-height: 50px;
-}
 
-.sidebar .SUPPORT_STAFF {
-  margin-top: 35px;
-  margin-bottom: 28px;
-  border-top: 4px solid black;
-  border-bottom: 4px solid black;
-  line-height: 55px;
+
 }
 
 .sidebar ul a {
@@ -100,6 +81,8 @@ span .IMAGINE {
   /* border-top: 2px solid black;
   border-bottom: 2px solid black; */
   margin-bottom: 13px;
+
+
 }
 
 /* ========Buttons color============= */
@@ -167,12 +150,14 @@ span .IMAGINE {
 
 }
 
+
 /* ========Buttons hover color============= */
 
 
 
 
 .sidebar ul li :hover {
+
   background-color: rgba(62, 147, 195, 1);
 }
 
@@ -188,10 +173,12 @@ span .IMAGINE {
   /* text-align: center; */
   /* line-height: 100px; */
   flex-shrink: 0;
-  justify-content: center;
-  font-weight: 500;
+  justify-content: left;
+  font-weight: 700;
   border-radius: 5px;
-  font-size: 25px;
+  font-size: 31px;
+  line-height: 57px;
+  font-family: 'Francois One', sans-serif;
 
 }
 
@@ -203,10 +190,13 @@ button {
   font-family: 'Francois One', sans-serif;
 }
 
-.ADD_NEW_SCHEDULE {
-  margin-left: 1100px;
+.ADD_NEW_Schedule {
+  position: relative;
   border-radius: 4px;
-  /*left: 10000;*/
+  left: 1350px;
+  top: 165px;
+
+
 }
 
 /* ============================Table========================= */
@@ -256,4 +246,5 @@ td {
 .DELETE {
 
   background-color: red;
+
 }

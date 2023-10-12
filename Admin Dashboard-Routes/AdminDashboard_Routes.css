@@ -30,7 +30,7 @@
   left: 0;
   width: 16.4%;
   height: 100%;
-  background-image: url("/images/Screenshot_train.png");
+  background-image: url("/images/Screenshot\ 2023-10-08\ 023753.png");
   font-family: 'Francois One', sans-serif;
 
 }
@@ -131,7 +131,7 @@ span .IMAGINE {
 
 /* ======================Blue bar==================== */
 
-.Add_Route {
+.Add_route {
   width: 82.4%;
   height: 47px;
   position: absolute;
@@ -141,10 +141,12 @@ span .IMAGINE {
   /* text-align: center; */
   /* line-height: 100px; */
   flex-shrink: 0;
-  justify-content: center;
-  font-weight: 500;
+  justify-content: left;
+  font-weight: 700;
   border-radius: 5px;
-  font-size: 25px;
+  font-size: 31px;
+  line-height: 57px;
+  font-family: 'Francois One', sans-serif;
 
 }
 
@@ -157,9 +159,12 @@ button {
 }
 
 .ADD_NEW_ROUTE {
-  margin-left: 1100px;
+  position: relative;
   border-radius: 4px;
-  /*left: 10000;*/
+  left: 1350px;
+  top: 165px;
+
+
 }
 
 /* ============================Table========================= */
@@ -209,4 +214,5 @@ td {
 .DELETE {
 
   background-color: red;
+
 }

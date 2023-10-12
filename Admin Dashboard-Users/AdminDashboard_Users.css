@@ -129,3 +129,86 @@ span .IMAGINE {
 
     background-color: rgba(62, 147, 195, 1);
 }
+
+.Add_User {
+    width: 82.4%;
+    height: 47px;
+    position: absolute;
+    left: 270px;
+    top: 155px;
+    background-color: rgba(62, 147, 195, 1);
+    /* text-align: center; */
+    /* line-height: 100px; */
+    flex-shrink: 0;
+    justify-content: left;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 31px;
+    line-height: 57px;
+    font-family: 'Francois One', sans-serif;
+
+}
+
+.text {
+    font-size: 20px;
+    text-align: 1350px;
+}
+
+.Add_User input {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/* ============================Table========================= */
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 800px;
+    font-family: 'Francois One', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    /* Adjust the width as needed */
+
+    text-align: center;
+    margin-left: 17%;
+    margin-top: 20%;
+    /*This is where the move the table from left side*/
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+table,
+th,
+td {
+    border: 3px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+td {
+    padding: 10px;
+}
+
+.EDIT {
+
+    background-color: rgba(62, 147, 195, 1);
+
+
+}
+
+.DELETE {
+
+    background-color: red;
+
+}
