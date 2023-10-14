@@ -1,50 +1,54 @@
 body {
     font-family: sans-serif;
-   
-  }
+
+}
 
 .anu-user-info {
     text-align: left;
-    width: 1580px; 
-    margin:  150px 350px ;
+    width: 1580px;
+    margin: 150px 350px;
     margin-bottom: 90px;
     background-color: #3e93c2;
     color: #fafafa;
     padding: 10px;
-  }
+}
 
-  table {
+table {
     width: 78%;
     border-collapse: collapse;
-    margin:  30px 7px ;
-  }
-  
-  th, td {
+    margin: 30px 7px;
+}
+
+th,
+td {
     border: 1px solid black;
     padding: 19px;
     text-align: center;
-  
-  }
 
-  td, th {
+}
+
+td,
+th {
     text-align: center;
 
-  } 
-  #anu-boarder {
+}
+
+#anu-boarder {
     text-align: center;
     margin-left: 355px;
-    
-  }   
-  
-  th {
-    background-color:white;
-  }
 
-  td {
-    background-color:white;
+}
+
+th {
+    background-color: white;
+}
+
+td {
+    background-color: white;
     height: 60px;
-  }
-  * {
+}
+
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -76,7 +80,7 @@ body {
     left: 0;
     width: 16.4%;
     height: 100%;
-    background-image: url("/images/Screenshot_train.png");
+    background-image: url("/images/Screenshot\ 2023-10-08\ 023753.png");
     font-family: 'Francois One', sans-serif;
 
 }
@@ -167,7 +171,3 @@ span .IMAGINE {
 
     background-color: rgba(62, 147, 195, 1);
 }
-
-  
-
- 
