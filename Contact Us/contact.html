@@ -24,11 +24,12 @@
   </style>
 </head>
 <body>
+  
   <div class="anu-Main">
     <div class="anu-Header">
       <h2 class="anu-Trivago">Trivago</h2>
       <a class="anu-Home" href="#">Home</a>
-      <a class="anu-Services" href="#">Services</a>
+      <a class "anu-Services" href="#">Services</a>
       <a class="anu-Contact" href="#">Contact</a>
       <a class="anu-AboutUs" href="#">About Us</a>
     </div>
@@ -38,40 +39,53 @@
       </div>
     </div>
     <div class="anu-innerBackground">
-        <div class="left-div">
-            <ul class="listOfContacts">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-          </ul>
-        </div>
+      <div class="left-div">
+        <ul class="listOfContacts">
+          <li>Our Office</li>
+          <li>Hands Global Holdings (Pvt) Ltd.</li>
+          <li>No. 21/5, Pagoda Road</li>
+          <li>Nugegoda.</li>
+        </ul>
+        <ul class="listOfContacts">
+          <li>Phone : (+94)11 2444 021</li>
+          <li>Hot line : (+94)11 2777 876</li>
+          <li>Email : info@trainsl.lk</li>
+          <li>Web site : trainsl.lk</li>
+          <li>Skype : TrainLanka</li>
+        </ul>
+      </div>
       <div class="right-div">
-        <form class = "co">
-			
-		<h1>Contact Us..</h1>	
-
-            <br><br>
-			
-            First name:
-            <input type="text" name="firstname" required><br><br>
-            
-            Last name:
-            <input type="text" name="lastname"><br><br>
-
-            E-mail:
-            <input type="email" name="email" placeholder="123@abc.com" ><br><br>
-
-            Subject: 
-            <textarea name="subject" rows="6" cols="25"></textarea><br><br>
-
-            Massage:
-            <textarea name="massage" rows="8" cols="25"></textarea><br><br><br>
-        
-            <input type="submit"> </div>
-            <br><br>
-
-        </form></div>
+        <form class="co">
+          <h1>Contact Us..</h1>
+          <br><br>
+          Your name:
+          <input type="text" name="firstname" placeholder="Enter your full name" required><br><br>
+          Phone number:
+          <input type="tel" id="phone" name="phone" placeholder="Enter phone number"><br><br>
+          E-mail:
+          <input type="email" name="email" placeholder="123@abc.com"><br><br>
+          Subject:
+          <textarea name="subject" rows="6" cols="25"></textarea><br><br>
+          Message:
+          <textarea name="massage" rows="8" cols="25"></textarea><br><br><br>
+  
+        <input style="margin-bottom: 20px; font-size: 20px;" type="submit">
+</form>
+      </div>
     </div>
   </div>
+  <script>
+    // JavaScript code for phone number validation
+    var phoneInput = document.getElementById("phone");
+
+    phoneInput.addEventListener("input", function() {
+      var phoneNumber = phoneInput.value.replace(/\D/g, '');
+      if (phoneNumber.length === 10) {
+        phoneInput.setCustomValidity('');
+      } else {
+        phoneInput.setCustomValidity('Please enter a 10-digit phone number.');
+      }
+    });
+  </script>
 </body>
 </html>
