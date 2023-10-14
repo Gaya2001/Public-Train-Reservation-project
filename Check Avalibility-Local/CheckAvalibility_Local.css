@@ -17,15 +17,29 @@ html {
 
 
 .section1 {
-    height: 50vh;
-    width: 100%;
+
     background-image: url(/images/Main_banner.jpg);
     background-size: cover;
     background-position: center;
 }
 
+.Class_Selection,
+section1 {
+    height: 100vh;
+    width: 100%;
 
+}
 
+.Summary_Box {
+    margin-top: 275px;
+    height: 100vh;
+    width: 100%;
+}
+
+.section5 {
+    position: relative;
+    top: 1438px;
+}
 
 
 /* ======================navigation Bar====================== */
@@ -134,19 +148,236 @@ button:hover {
 }
 
 
+/* =====================Class_Selection====================== */
+
+.Class_Selection {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 98%;
+    padding: 10px;
+
+}
+
+
+.Class_Selection h1 {
+    text-align: center;
+    font: size 30px;
+    color: #2371e0;
+    font-size: 50px;
+
+}
+
+
+.Class_Selection .form {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+}
+
+
+.Class_Selection .form .form-input {
+    width: 32%;
+
+}
+
+
+.Class_Selection .form .form-input input {
+    display: none;
+
+}
+
+.Class_Selection .form .form-input label {
+    display: block;
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 2px 2px 5px 2px #ddd;
+}
+
+.Class_Selection .form .form-input label .title {
+
+    font-size: 18px;
+    color: #2371e0;
+    font-weight: 600;
+}
+
+
+.Class_Selection .form .form-input label .price {
+
+    font-size: 40px;
+    color: #2371e0;
+    font-weight: 600;
+    margin: 10px 0px 2px;
+    color: #222;
+}
+
+.Class_Selection .form .form-input label p {
+
+    font-size: 15px;
+    color: #888;
+}
+
+.Class_Selection .form .form-input label .desc {
+
+    font-size: 20px;
+    color: #555;
+    margin-top: 10px;
+}
+
+
+.Class_Selection .form .form-input label:hover {
+
+    border: 1px solid #2371e0;
+}
+
+
+.Class_Selection .form .form-input input:checked+label {
+
+    background: #2371e0;
+}
+
+.Class_Selection .form .form-input input:checked+label .title {
+
+    color: #eee;
+}
+
+.Class_Selection .form .form-input input:checked+label .price {
+
+    color: #eee;
+}
+
+.Class_Selection .form .form-input input:checked+label p {
+
+    color: #ddd;
+}
+
+.Class_Selection .form .form-input input:checked+label .desc {
+
+    color: #eee;
+}
+
+
+
+/* ======================Summary section==================== */
+
+
+
+ul li {
+    list-style: none;
+}
+
+.Summary_Header {
+    position: relative;
+    left: -10px;
+
+    background: #222;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    width: 102%;
+    margin-bottom: 5px;
+}
+
+
+.box {
+    width: 800px;
+    height: 670px;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.box h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box p {
+
+    margin-bottom: 5px;
+    font-size: 30px;
+    padding: 18px;
+}
+
+.summary {
+    background-color: #ccc;
+    text-align: center;
+
+
+}
+
+.Summary_Box ul li {
+    text-align: left;
+    font-size: 25px;
+    padding: 17px;
+    margin-left: 19px;
+}
+
+span {
+    color: #2371e0;
+}
+
+.forward-train {
+    margin-top: 70px;
+
+}
+
+.price-details {
+    margin-top: 10px;
+    float: left;
+    width: 50%;
+}
+
+.total_price {
+    margin-top: 10px;
+
+    width: 50%;
+    background-color: #ccc;
+    display: inline-block;
+}
+
+
+.checkout {
+    position: relative;
+    left: 156px;
+    bottom: -3px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #2371e0;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /* ===================================Footer section ==========================*/
 
 
-/* .section5 {
-
-    height: auto;
-    width: 100%;
-    background: #3333;
-    background-image: url(Main_banner.jpg);
-}
 
 
 
@@ -200,4 +431,4 @@ ul {
 
     display: inline-block;
 
-} */
+}
