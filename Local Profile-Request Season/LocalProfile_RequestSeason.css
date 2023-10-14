@@ -46,6 +46,8 @@ header{
     list-style: none;
     color: black;
     font-size: larger;
+    width: 300px;
+    height: 30px;
 }
 
 #use_acc{
@@ -54,10 +56,11 @@ header{
   
 }
 
-#hori_line{
-    width: 10%;
-    size: 10px;
-    align-content:center;
+hr#hori_line{
+    width: 94%;
+    border: 10px solid black;
+    border-radius: 2px;
+    border-top: 10px;
 
 }
 
@@ -87,7 +90,25 @@ header{
     height: 400px;
     margin-left: 23%;
     margin-top: 2%;
-    border-style: solid;   
+    border-style: solid;
+    border-radius: 8px;   
+}
+
+.card > h1{
+    margin-left: 20px;
+}
+
+.card > h2{
+    margin-left: 935px;
+    margin-top: -55px;
+}
+
+#valid_till{
+    margin-top: 80px;
+}
+
+#season_no{
+    margin-top: 95px;
 }
 
 #thinrec_ash{
@@ -100,3 +121,20 @@ header{
     text-align: center;
 }
 
+#big_button{
+    height: 80px;
+    width:1125px;
+    background-color: #AEB1B0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#big_button{
+    transition-duration: 0.5s;
+}
+
+#big_button:hover{
+   background-color: royalblue;
+   color: white;
+}
