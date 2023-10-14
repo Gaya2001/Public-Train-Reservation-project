@@ -13,6 +13,7 @@ html {
     ;
 }
 
+/* =====================sections scales=============== */
 .section1 {
     height: 100vh;
     width: 100%;
@@ -49,7 +50,7 @@ html {
 }
 
 
-
+/* ======================navigation Bar====================== */
 
 .Head {
 
@@ -151,6 +152,9 @@ button:hover {
     border-color: rgba(62, 147, 195, 1);
 }
 
+
+/* ========================Section 2(NEWS)============================ */
+
 .section2 {
     background: #3333;
     align-items: center;
@@ -227,6 +231,8 @@ img {
     color: white;
     background-color: black;
 }
+
+/* =========================Section 3 = ABOUT US======================= */
 
 .About_Us {
 
@@ -338,6 +344,7 @@ heading h1 {
     color: #666;
 }
 
+/* ============================Section 4 (Services)============================ */
 
 #Services {
 
