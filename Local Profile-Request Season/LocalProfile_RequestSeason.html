@@ -37,8 +37,42 @@
     </div>
 
     <div id="thinrec">
-           <div><h3>Local season</h3></div> 
-           <div><button>Request season</button></div>
+           <div><h3>Local season</h3></div>
+           
+           <div class="Add_Season">
+            <label class="cc1">Season form </label>
+            <button class="add_season_details" onclick="openPopupForm()">Request season</button>
+          </div>
+          <div class="popup-overlay" id="popup">
+            <div class="popup-form">
+              <h2>Reserve a season pass</h2>
+              <form>
+                <div class="form-field">
+                  <label for="user name">User Name:</label>
+                  <input type="text" id="user name" name="user name">
+                </div>
+                <div class="form-field">
+                  <label for="train name">Train Name:</label>
+                  <input type="text" id="train name" name="train name">
+                </div>
+                <div class="form-field">
+                  <label for="train class">Class:</label>
+                  <input type="text" id="train class" name="train class">
+                </div>
+                <div class="form-field">
+                  <label for="arrival">Arrival:</label>
+                  <input type="text" id="arrival" name="arrival">
+                </div>
+                <div class="form-field">
+                  <label for="departure">Departure:</label>
+                  <input type="text" id="departure" name="departure">
+                </div>
+                <button class="submit-button" type="submit">Submit</button>
+              </form>
+              <button class="close-button" onclick="closePopupForm()">&times;</button>
+            </div>
+          </div>
+           
     </div>
 
     <div class="card">
@@ -56,7 +90,15 @@
     <div id="thinrec_ash">
        <button id="big_button"><h3>Update season for the next month</h3></button>
 
-
+       <script>
+        function openPopupForm() {
+          document.getElementById("popup").style.display = "block";
+        }
+      
+        function closePopupForm() {
+          document.getElementById("popup").style.display = "none";
+        }
+      </script>
 
 </body>
 </html>
