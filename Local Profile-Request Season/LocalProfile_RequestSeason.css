@@ -81,7 +81,26 @@ hr#hori_line{
     margin-left: 23%;
     margin-top: 4%;
     border-radius: 5px;
+}
+#thinrec > div > h3{
+    margin-left: 50px;
+    margin-top: 30px;
+}
 
+#thinrec > div > button{
+    height: 25px;
+    margin-left: 980px;
+    
+    background-color: #AEB1B0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+}
+
+#thinrec > div > button:hover{
+    background-color:royalblue;
+    color: white;
 }
 
 .card{
@@ -119,6 +138,7 @@ hr#hori_line{
     margin-left: 23%;
     margin-top: 2%;
     text-align: center;
+    border-radius: 12px;
 }
 
 #big_button{
@@ -128,9 +148,6 @@ hr#hori_line{
     text-align: center;
     cursor: pointer;
     border-radius: 12px;
-}
-
-#big_button{
     transition-duration: 0.5s;
 }
 
