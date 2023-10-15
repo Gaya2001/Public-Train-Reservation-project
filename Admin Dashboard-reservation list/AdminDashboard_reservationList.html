@@ -44,6 +44,100 @@
 
         </ul>
     </div>
+    <!-- ======================Blue Bar========================= -->
+
+    <div class="Add_Train">
+        <p>RESERVATION LIST </p>
+    </div>
+    <button class="ADD_NEW_TRAIN" onclick="openPopupForm()">ADD NEW USER</button>
+    <!-- ========================Table============================ -->
+    <div class="Container">
+
+        <table class="">
+            <tr>
+                <th>#</th>
+                <th>Train No.</th>
+                <th>Passenger Name</th>
+                <th>Route</th>
+                <th>Class</th>
+                <th>No. Seats</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Ruhunu kumari</td>
+                <td>Kavindu Gayashan</td>
+                <td>Galle to matara</td>
+                <td>First class</td>
+                <td>02</td>
+                <td><button class="EDIT">EDIT</button>
+                    <button class="DELETE">DELETE</button>
+                </td>
+            </tr>
+
+
+
+
+
+
+
+
+
+        </table>
+
+
+    </div>
+
+
+    <!-- =====================Pop Up Box============== -->
+
+
+
+    <div class="popup-overlay" id="popup">
+        <div class="popup-form">
+            <h2>ADD NEW USER</h2>
+            <form action="" method="post">
+                <div class="form-field">
+                    <label for="train_id">USER ID:</label>
+                    <input type="text" id="train_id" name="train_id">
+                </div>
+                <div class="form-field">
+                    <label for="route_id">Train No:</label>
+                    <input type="text" id="route_id" name="route_id">
+                </div>
+                <div class="form-field">
+                    <label for="departure_time">Passenger Name:</label>
+                    <input type="text" id="departure_time" name="departure_time">
+                </div>
+                <div class="form-field">
+                    <label for="arrival_time">Route:</label>
+                    <input type="text" id="arrival_time" name="arrival_time">
+                </div>
+                <div class="form-field">
+                    <label for="fc_fee">Class:</label>
+                    <input type="text" id="fc_fee" name="fc_fee">
+                </div>
+                <div class="form-field">
+                    <label for="sc_fee">No. Seats:</label>
+                    <input type="text" id="sc_fee" name="sc_fee">
+                </div>
+
+                <button class="submit-button" type="submit">Submit</button>
+            </form>
+            <button class="close-button" onclick="closePopupForm()">&times;</button>
+        </div>
+    </div>
+    <!-- ========================script============================ -->
+    <script>
+        function openPopupForm() {
+            document.getElementById("popup").style.display = "block";
+        }
+
+        function closePopupForm() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+
 
 </body>
 
