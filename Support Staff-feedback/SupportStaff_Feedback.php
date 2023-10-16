@@ -1,3 +1,6 @@
+<?php
+include 'connect.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,7 +23,6 @@
 </head>
 
 <body>
-
     <!-- ============== Side navigation Bar============= -->
 
     <div class="NAME">
@@ -29,7 +31,7 @@
     <div class="anu-user-info">
         <p><b>All Feedbacks</b></p>
       </div>
-    
+     
       
     <div class="sidebar">
         <header>
@@ -60,43 +62,44 @@
             <th>Message</th>
             <th>Action</th>
         </tr>
-    </theader>
-   
+        </theader>
         <tbody>
-           
+        <?php
+            $sql = "select * from `sfeedback`";
+            $result = mysqli_query($con, $sql);
             
-        <tr>
+            if ($result) {
+                while($row=mysqli_fetch_assoc($result)){
+                    $ID=$row['ID'];
+                    $name=$row['name'];
+                    $phone=$row['phone'];
+                    $email=$row['email'];
+                    $Subject=$row['Subject'];
+                    $Message=$row['Message'];
 
-            <td>1</td>
-            <td>Data 2</td>
-            <td>Data 3</td>
-            <td>Data 4</td>
-            <td>Data 5</td>
-            <td>Data 6</td>
-            <td><button class="anu-feedbackUpdateBtn">Update</button>
-                <button class="anu-feedbackDeleteBtn">Delete</button></td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Data 2</td>
-            <td>Data 3</td>
-            <td>Data 4</td>
-            <td>Data 5</td>
-            <td>Data 6</td>
-            <td><button class="anu-feedbackUpdateBtn">Update</button>
-                <button class="anu-feedbackDeleteBtn">Delete</button></td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Data 2</td>
-            <td>Data 3</td>
-            <td>Data 4</td>
-            <td>Data 5</td>
-            <td>Data 6</td>
-            <td><button class="anu-feedbackUpdateBtn">Update</button>
-            <button class="anu-feedbackDeleteBtn">Delete</button></td>
-        </tr> 
-    </tbody>
+                    $htmlRow = '<tr>';
+                    $htmlRow .= '<td>' . $ID . '</td>';
+                    $htmlRow .= '<td>' . $name . '</td>';
+                    $htmlRow .= '<td>' . $phone . '</td>';
+                    $htmlRow .= '<td>' . $email . '</td>';
+                    $htmlRow .= '<td>' . $Subject . '</td>';
+                    $htmlRow .= '<td>' . $Message . '</td>';
+                    $htmlRow .= '<td>';
+                    $htmlRow .= '<button class="anu-feedbackUpdateBtn"><a href="update.php?updateID=' . $ID . '">Update</a></button>';
+                    $htmlRow .= '<button class="anu-feedbackDeleteBtn"><a href="delete.php?deleteid=' . $ID . '">Delete</a></button>';
+                    $htmlRow .= '</td>';
+                    $htmlRow .= '</tr>';
+            
+                    // Echo the HTML row
+                    echo $htmlRow;
+
+                   
+                }
+            }
+               
+            ?>
+       
+        </tbody>
     </table>
     
     </div>

@@ -3,7 +3,7 @@ html {
 }
 
 .anu-innerBackground {
-    background-image: url('/Public-Train-Reservation-project//images/Main_banner.jpg');
+    background-image: url('Main_banner.jpg');
     background-position: center center;
     width: 100%;
     height: 100%;

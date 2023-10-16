@@ -32,7 +32,7 @@
   height: 100%;
   background-image: url("/images/Screenshot\ 2023-10-08\ 023753.png");
   font-family: 'Francois One', sans-serif;
-
+  
 }
 
 span .IMAGINE {
@@ -133,7 +133,13 @@ table#alter th {
   background-color: gray;  
 }  
 
-.anu-feedbackActionBtn {
+.anu-feedbackDeleteBtn {
+  background-color: rgb(236, 119, 121);
+  font-size: 25px;
+  padding: 8px;
+  border-radius: 10px;
+}
+.anu-feedbackUpdateBtn{
   background-color: rgb(119, 119, 236);
   font-size: 25px;
   padding: 8px;
@@ -158,14 +164,6 @@ table#alter th {
   color: #fafafa;
   padding: 10px;
   font-size: 25px;
-}
-
-.anu-search-bar {
-  float: right;
-  margin-bottom: 30px;
-  margin-right: 150px;
-  font-size: 25px;
-
 }
 
 
