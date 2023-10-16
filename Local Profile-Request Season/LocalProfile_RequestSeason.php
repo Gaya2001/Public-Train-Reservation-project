@@ -43,21 +43,45 @@
             <label class="cc1">Season form </label>
             <button class="add_season_details" onclick="openPopupForm()">Request season</button>
           </div>
+
+          <?php
+  include 'connect.php';
+  if(isset($_POST['Submit'])){
+    $user_name=$_POST['name_user'];
+    $train_name=$_POST['train_name'];
+    $departure=$_POST['Departure'];
+    $arrival=$_POST['Arrival'];
+    $train_class=$_POST['train_class'];
+    
+    $sql = "INSERT INTO user_requests (user_name,train_name, Departure, Arrival,train_class)
+    VALUES ('$user_name', '$train_name', '$departure', '$arrival', '$train_class')";
+
+    $result = mysqli_query($con, $sql);
+
+    if($result){
+      //echo"Data insert successfully";
+      header('location:LocalProfile_RequestSeason.php');
+    }else{
+      die(mysqli_error($con));
+    }
+  }
+  ?>
+
           <div class="popup-overlay" id="popup">
             <div class="popup-form">
               <h2>Reserve a season pass</h2>
-              <form>
+              <form method="POST">
                 <div class="form-field">
                   <label for="user name">User Name:</label>
-                  <input type="text" id="user name" name="user name">
+                  <input type="text" id="user name" name="user_name">
                 </div>
                 <div class="form-field">
                   <label for="train name">Train Name:</label>
-                  <input type="text" id="train name" name="train name">
+                  <input type="text" id="train name" name="train_name">
                 </div>
                 <div class="form-field">
                   <label for="train class">Class:</label>
-                  <input type="text" id="train class" name="train class">
+                  <input type="text" id="train class" name="train_class">
                 </div>
                 <div class="form-field">
                   <label for="arrival">Arrival:</label>
