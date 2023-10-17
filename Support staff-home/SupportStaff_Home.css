@@ -195,7 +195,7 @@ p {
     color: white;
 }
 
-.Routes {
+.Routes1 {
     background-color: rgb(19, 205, 69);
     width: 200px;
     padding: 50px;
@@ -207,14 +207,14 @@ p {
     color: white;
 }
 
-.Users {
+.Users1 {
     background-color: rgb(243, 247, 35);
     width: 200px;
     padding: 50px;
     margin-left: 300px;
     border-radius: 10px;
     position: relative;
-    top: 1px;
+    top: 10px;
     left: 150px;
     color: white;
 }
